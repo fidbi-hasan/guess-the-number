@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
+
+* {
+    background-color: #274C77;
+}
+
+#myLabel {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#myNumber {
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    outline: none;
+}
+
+#randomNumber {
+    color: aliceblue;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+}
+
+#predictButton {
+    border: none;
+    background-color: aliceblue;
+    color: #274C77;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#predictButton:hover {
+    background-color: azure;
+}
+
+#result {
+    color: #FFFAFF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+}
+
+#attemps {
+    color: #FFFAFF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+}
+
+::selection {
+    background-color: aliceblue;
+    color: #274C77;
+}
+
+.myDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+#credit {
+    color: #FFFAFF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    position: fixed;
+    bottom: 1px;
+    left: 300px;
+}
