@@ -21,6 +21,7 @@ document.getElementById("predictButton").onclick = function () {
         }
         else {
             document.getElementById("result").innerHTML = "Prediction Wrong! You Lost!";
+            document.getElementById("attemps").innerHTML = "";
         }
     }
     
